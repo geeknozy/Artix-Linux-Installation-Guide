@@ -1,14 +1,14 @@
 # Artix-Linux-Installation-Guide
 
-## Note : Artix Linux team provides and supports different init systems -> openrc, runit, s6, suite66, dinit init systems that can be used with Artix install, 
-## but I will be covering only openrc and runit init system, I have not tried other init systems. I will be appy if any one of you request me to give a guide for other init systems.
+### Note : Artix Linux team provides and supports different init systems -> openrc, runit, s6, suite66, dinit init systems that can be used with Artix install, 
+### but I will be covering only openrc and runit init system, I have not tried other init systems. I would be happy if any one of you request me to give a guide for other init systems.
 --------------------------------------------------------------------------------------------------------------------------------<br />
 
 ### modified and userfriendly way guide to install Artix linux - by geeknozy <br />
 
 ### Note : x86-64 architecture with UEFI enabled systems only. <br />
 
-##### This guide is made in such a way that new users to Artix linux may seem helpfull and can follow along the installation steps and can install Artix-Linux on thier systems.<br />
+##### This guide is made in such a way that new users to Artix linux may seem helpful and can follow along the installation steps and can install Artix-Linux on thier systems.<br />
 
 #### Warning : Any data-loss or system brick by using this guide I/geeknozy will/should not be held responsible. This guide will only provide easier steps to install Artix-Linux not the official way of doing things, so as to say : Read the official Artix wiki, it is one of the greatest documentation ever.<br />
 
@@ -22,15 +22,17 @@
 
 --------------------------------------------------------------------------------------------------------------------------------<br />
 
-#### Step 3: Select the any mirror link mirror to download the ISO package.<br />
+#### Step 3: Go to Official ISO images section of the website.<br />
+#### click on artix-base-openrc-20220123-x86_64.iso if you need openrc init system <br />
+#### click on artix-base-runit-20220123-x86_64.iso if you need runit init system <br />
+ 
+--------------------------------------------------------------------------------------------------------------------------------<br />
+
+#### Step 4: Note the sha256sum (checksum) provided on their website for corresponding iso images<br />
 
 --------------------------------------------------------------------------------------------------------------------------------<br />
 
-#### Step 4: Note the md5/sha256sum (checksum) provided <br />
-
---------------------------------------------------------------------------------------------------------------------------------<br />
-
-#### Step 5: check the integrity of the downloaded ISO file with md5/sha256sum. <br />
+#### Step 5: check the integrity of the downloaded ISO file with sha256sum. <br />
 
 --------------------------------------------------------------------------------------------------------------------------------<br />
 
@@ -46,7 +48,8 @@
 
 --------------------------------------------------------------------------------------------------------------------------------<br />
 
-#### Step 9: You will be prompted with CLI as ```root@Artixiso``` <br />
+#### Step 9: You will be prompted with CLI interface and login using username : ```root``` and password : ```artix``` <br />
+#### Your prompt should look like ```artix:[root]:```
 
 --------------------------------------------------------------------------------------------------------------------------------<br />
 
