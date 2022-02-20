@@ -1,4 +1,4 @@
-# Artix-Linux-Installation-Guide
+# Artix-Linux-Installation-Guide  (InProgress .....) Do not follow this right now
 
 ### Note : Artix Linux team provides and supports different init systems -> openrc, runit, s6, suite66, dinit init systems that can be used with Artix install, 
 ### but I will be covering only openrc and runit init system, I have not tried other init systems. I would be happy if any one of you request me to give a guide for other init systems.
